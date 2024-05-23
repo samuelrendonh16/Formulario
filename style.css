@@ -1,0 +1,87 @@
+:root{
+    --blanco:      #ffffff;
+    --oscuro:      #212121;
+    --primario:    #ffc107;
+    --secuandario: #a0a0a0;
+    --gris:        #757575;
+    --gris_claro:  #FFFFFFE6;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+body {
+    font-size: 16px;
+        .krub-regular {
+        font-family: "Krub", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-weight: 400;
+      }
+}
+
+h1.titulo{
+    
+    text-align: center;
+    font-size: 3.8rem;
+    font-weight: bold;
+}
+
+h2.tituloRegistro{
+    text-align: left;
+
+
+}
+
+.formulario{
+    width: min (60rem, 100%);
+    padding: 2rem;
+    margin-bottom: 150rsem;
+    background-color: var(--blanco);
+}
+
+.campo{
+    display: flex;
+    margin-top: 4rem;
+
+}
+
+.campo__label {
+    flex: 0 0 9rem;
+}
+
+.campo__field {
+    flex: 1;
+    padding: 1rem;
+}
+
+
+
+.boton {
+    background-color:#599bb3;
+    border-radius:6px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:18px;
+    font-weight:bold;
+    padding:12px 11px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #3d768a;
+}
+
+.boton:hover {
+	   background-color:#408c99;
+}
+.boton:active {
+	position:relative;
+	top:1px;
+}

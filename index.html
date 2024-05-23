@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Biblioteca y Usuario</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">Biblioteca</h1
+    ></header>
+
+   
+    <form class="formulario">
+        <fieldset class="contenedor">
+
+        <h2>Registrar de Libro</h2>
+            <div class="campo">
+                <label class="campo__label">Titulo</label>
+                <input class="campo__field" type="text" id="titulo" name="titulo" required>
+            </div>
+           
+            <div class="campo">
+                <label for="autor" class="campo__label">Autor</label>
+                <input class="campo__field" type="text" id="autor" name="autor" required>
+            </div>
+            <div class="campo">
+                <label for="editorial" class="campo__label">Editorial</label>
+                <input class="campo__field" type="text" id="editorial" name="editorial" required>
+            </div>
+            <div class="campo">
+                <label for="categoria" class="campo__label">Categoría</label>
+                <input class="campo__field" type="text" id="categoria" name="categoria" required>
+            </div>
+            <div class="campo">
+                <label for="fecha-publicacion" class="campo__label">Fecha de Publicación</label>
+                <input class="campo__field" type="date" id="fecha-publicacion" name="fecha-publicacion" required>
+            </div>
+                <button type="submit" class="boton">Registrar libro</button>
+        </fieldset>
+    </form>
+
+    <h3>Libros Registrados</h3>
+    <ul id="libros-list"></ul>
+
+    <h2>Registro de Usuario</h2>
+    <form class="formulario">
+        <fieldset class="contenedor">
+            
+                <div class="campo">
+                    <label for="nombre" class="campo__label">Nombre</label>
+                    <input class="campo__field" type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="campo" >
+                    <label for="email" class="campo__label">Email</label>
+                    <input class="campo__field" type="email" id="email" name="email" required>
+                </div>
+                <div class="campo">
+                    <label for="fecha-nacimiento"  class="campo__label">Fecha de Nacimiento</label>
+                    <input class="campo__field" type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+                </div>
+                    <button type="submit" class="boton">Registrar Usuario</button>    
+        </fieldset>
+
+         
+    </form>
+
+    <h3>Lista de usuarios</h3>
+    <ul id="libros-list"></ul>
+
+
+</body>
+</html>
